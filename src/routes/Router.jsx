@@ -4,7 +4,6 @@ import MainLayout from "../layouts/Main";
 import Home from "../pages/Home/Index";
 import SignUp from "../components/SignUp";
 import Signin from "../components/Signin";
-import GetComponent from '../pages/get';
 
 const router = createBrowserRouter([
  {
@@ -22,10 +21,6 @@ const router = createBrowserRouter([
    {
     path: "/Signin",
     element: <Signin />
-   },
-   {
-    path: "/GetComponent",
-    element: <GetComponent />
    },
   ],
  },
